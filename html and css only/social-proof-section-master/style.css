@@ -75,7 +75,7 @@ section:nth-last-of-type(2) {
 .ratings-container__rating {
     width: 60%;
     height: 4rem;
-    padding: 0 1rem 0 1rem;
+    padding-left: 2rem;
     
     display: flex;
     align-items: center;
