@@ -50,7 +50,7 @@ section:nth-last-of-type(2) {
 .headline-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 1rem;
 }
 
 .headline-container__header{
@@ -76,7 +76,7 @@ section:nth-last-of-type(2) {
     width: 60%;
     height: 4rem;
     padding-left: 2rem;
-    
+
     display: flex;
     align-items: center;
     gap: 1.5rem;
