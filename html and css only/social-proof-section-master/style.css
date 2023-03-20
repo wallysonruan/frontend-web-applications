@@ -1,0 +1,142 @@
+section:first-of-type {
+    background-color: purple;
+}
+
+section:nth-of-type(2) {
+    background-color: green;
+}
+
+section:last-of-type {
+    background-color: red;
+}
+
+.headline-container__header {
+    background-color: red;
+}
+
+.headline-container__description {
+    background-color: orange;
+}
+
+.ratings-container__rating {
+    background-color: orange;
+}
+
+.rating__stars {
+    background-color: palevioletred;
+}
+
+.rating__text {
+    background-color: purple;
+}
+
+.testimonies-container__testimony {
+    background-color: purple;
+}
+
+.testimony__profile {
+    background-color: green;
+}
+
+.profile__picture {
+    background-color: red;
+}
+
+.profile__informations {
+    background-color: palevioletred;
+}
+
+.informations__name {
+    background-color: gray;
+}
+
+.informations__isVerified {
+    background-color: pink;
+}
+
+.testimonies-container__text {
+    background-color: orange;
+}
+
+/* The code above must be erased after the completion of this project */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+main {
+    width: 60%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section:first-of-type,
+section:nth-last-of-type(2) {
+    width: 50%;
+}
+
+.ratings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ratings-container__rating {
+    display: flex;
+    width: max-content;
+}
+
+.ratings-container__rating:first-of-type {
+    align-self: flex-start;
+}
+
+.ratings-container__rating:nth-of-type(2) {
+    align-self: center;
+}
+
+.ratings-container__rating:last-of-type {
+    align-self: flex-end;
+}
+
+.testimonies-container {
+    height: 15em;
+    display: flex;
+}
+
+.testimonies-container__testimony:first-of-type {
+    align-self: flex-start;
+}
+
+.testimonies-container__testimony:nth-of-type(2) {
+    align-self: center;
+}
+
+.testimonies-container__testimony:last-of-type {
+    align-self: flex-end;
+}
+
+.testimonies-container__testimony {
+    height: min-content;
+}
+
+.testimony__profile {
+    display: flex;
+}
